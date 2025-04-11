@@ -73,3 +73,8 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 /Wwise Project 2/Library
+/Wwise Project 2/Assets/Wwise/ProjectDatabase
+/Wwise Project 2/Assets/Wwise/Timeline
+/Wwise Project 2/Assets/Wwise/MonoBehaviour
+/Wwise Project 2/Assets/Wwise/API
+/Wwise Project 2/Assets/Wwise/Documentation
