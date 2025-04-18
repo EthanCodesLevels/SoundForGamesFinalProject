@@ -80,8 +80,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 37d81b36ae3b194b9415f331e5b7a2f4
     GuidInternal: 
-    m_lastTime: -8584572765637325723
-    List: []
+    m_lastTime: -8584566696766478372
+    List:
+    - name: Coin_pick_up
+      guid: e4c9b2100c85c8429a8c2fdc3e77fbf5
+      id: 4079413198
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 37d81b36ae3b194b9415f331e5b7a2f4
+      - ElementName: Coin_pick_up
+        ObjectType: 3
+        guid: e4c9b2100c85c8429a8c2fdc3e77fbf5
+      Path: Events\Default Work Unit\Coin_pick_up
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
