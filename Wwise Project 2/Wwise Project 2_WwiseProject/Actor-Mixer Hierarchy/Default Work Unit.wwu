@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8367C014-2480-4A31-849F-9D83C05B7E18}" SchemaVersion="123">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{8367C014-2480-4A31-849F-9D83C05B7E18}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8367C014-2480-4A31-849F-9D83C05B7E18}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Coin_pick_up" ID="{8DF29746-05E5-45D7-BA9D-63AE7FEE0DE6}" ShortID="357859358">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{783016F9-5EA9-4A78-A12B-254CD1C90B69}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{971B84F3-8509-4465-B8E4-5DBB02D56343}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Coin sound 2" ID="{34A998A6-69A8-407F-9BC2-F752FC9B3AB0}" ShortID="649224607">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{783016F9-5EA9-4A78-A12B-254CD1C90B69}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{971B84F3-8509-4465-B8E4-5DBB02D56343}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Coin sound 2" ID="{06217284-2145-4AF2-85B2-E9ADB9597BA5}">
+									<Language>SFX</Language>
+									<AudioFile>Coin sound 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="917379753"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Coin sound 2" ID="{06217284-2145-4AF2-85B2-E9ADB9597BA5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Coin sound 1" ID="{A691950F-6FF0-4F9C-87FB-3ED9C812341F}" ShortID="544778509">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{783016F9-5EA9-4A78-A12B-254CD1C90B69}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{971B84F3-8509-4465-B8E4-5DBB02D56343}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Coin sound 1" ID="{CB91DEDD-3223-4EDB-AEDA-B22F4EEB805B}">
+									<Language>SFX</Language>
+									<AudioFile>Coin sound 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="645658446"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Coin sound 1" ID="{CB91DEDD-3223-4EDB-AEDA-B22F4EEB805B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
