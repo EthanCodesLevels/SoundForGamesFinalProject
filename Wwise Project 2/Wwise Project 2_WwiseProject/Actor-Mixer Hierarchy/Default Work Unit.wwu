@@ -59,6 +59,154 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="Main_menu_loop" ID="{4B304EAD-E2B1-4197-8F0D-02BC6AA4BE51}" ShortID="919839828">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{783016F9-5EA9-4A78-A12B-254CD1C90B69}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{971B84F3-8509-4465-B8E4-5DBB02D56343}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Main_menu_loop" ID="{073401BD-C6BF-4AE9-977A-A0399CA3D4B4}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="35.906897491213"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Main_menu_loop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="798548240"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Main_menu_loop" ID="{073401BD-C6BF-4AE9-977A-A0399CA3D4B4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Level_BG_music" ID="{AEAB4FDC-8D9D-4BD1-9977-AC4909EEB3F9}" ShortID="317543084">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{783016F9-5EA9-4A78-A12B-254CD1C90B69}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{971B84F3-8509-4465-B8E4-5DBB02D56343}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Level_BG_music" ID="{E558678E-6CB7-4365-A150-EA8A5D0E409A}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="9.51232530622918"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="101.931095639496"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Level_BG_music.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="217560476"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Level_BG_music" ID="{E558678E-6CB7-4365-A150-EA8A5D0E409A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Footsteps" ID="{682D6622-A162-42C2-8FB3-FF16E9A35947}" ShortID="754343179">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{783016F9-5EA9-4A78-A12B-254CD1C90B69}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{971B84F3-8509-4465-B8E4-5DBB02D56343}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="3-524339-Foot-Steps-Wood-De-Noised-Walk-3_wav 2025-03-06 13_31" ID="{EFD96A38-8A5A-4221-BF61-391E0BA06D5E}" ShortID="576960819">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{783016F9-5EA9-4A78-A12B-254CD1C90B69}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{971B84F3-8509-4465-B8E4-5DBB02D56343}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="3-524339-Foot-Steps-Wood-De-Noised-Walk-3_wav 2025-03-06 13_31" ID="{B2FF29B9-B08D-41AF-839B-0DCD7BE340E6}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.86712282684249"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.08360056363669"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>3-524339-Foot-Steps-Wood-De-Noised-Walk-3.wav 2025-03-06 13_31.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="540072961"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="3-524339-Foot-Steps-Wood-De-Noised-Walk-3_wav 2025-03-06 13_31" ID="{B2FF29B9-B08D-41AF-839B-0DCD7BE340E6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="3-524339-Foot-Steps-Wood-De-Noised-Walk-3_wav 2025-03-06 13_01" ID="{76FA8208-3996-433C-84BD-C35ED7427DD6}" ShortID="421610563">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{783016F9-5EA9-4A78-A12B-254CD1C90B69}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{971B84F3-8509-4465-B8E4-5DBB02D56343}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="3-524339-Foot-Steps-Wood-De-Noised-Walk-3_wav 2025-03-06 13_31" ID="{0DA1E416-CBCA-43EA-894E-2F38C623C043}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.55142573051646"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.79496321842432"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>3-524339-Foot-Steps-Wood-De-Noised-Walk-3.wav 2025-03-06 13_31.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="302350548"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="3-524339-Foot-Steps-Wood-De-Noised-Walk-3_wav 2025-03-06 13_31" ID="{0DA1E416-CBCA-43EA-894E-2F38C623C043}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{C3FB009A-B9A2-4B29-81B9-BDC765A34091}" ShortID="383963845">
+										<PropertyList>
+											<Property Name="Render" Type="bool" Value="True"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
+												<ObjectRef Name="New_Recorder" ID="{DFDADA2B-0C9D-4619-B369-18F7EC7457E8}" WorkUnitID="{E408CB13-C24C-4F79-9FB8-B9D6218598B2}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -14,6 +14,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Main_menu_" ID="{0CED9E0A-F21E-4DE9-94B9-4C6055DE933C}">
+					<ChildrenList>
+						<Action Name="" ID="{2895C956-0019-467F-8946-D84538E6FC0D}" ShortID="125023163">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main_menu_loop" ID="{4B304EAD-E2B1-4197-8F0D-02BC6AA4BE51}" WorkUnitID="{8367C014-2480-4A31-849F-9D83C05B7E18}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Footsteps" ID="{09302306-FFF5-4B04-A3A9-C545E2C2EEB9}">
+					<ChildrenList>
+						<Action Name="" ID="{2BB83451-0F6C-4119-8F33-1525538FD68B}" ShortID="681167367">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{682D6622-A162-42C2-8FB3-FF16E9A35947}" WorkUnitID="{8367C014-2480-4A31-849F-9D83C05B7E18}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
