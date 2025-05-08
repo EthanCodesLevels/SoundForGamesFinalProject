@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	777827307	Main_menu_			\Default Work Unit\Main_menu_	
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+	4079413198	Coin_pick_up			\Default Work Unit\Coin_pick_up	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	302350548	3-524339-Foot-Steps-Wood-De-Noised-Walk-3_wav 2025-03-06 13_01	C:\Users\ethan\OneDrive\Desktop\SoundForGamesFinalProject\Wwise Project 2\Wwise Project 2_WwiseProject\.cache\C1\{C188DA70-A3A6-1168-F85B-C8A38A49E8BB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\3-524339-Foot-Steps-Wood-De-Noised-Walk-3_wav 2025-03-06 13_01		46856
+	540072961	3-524339-Foot-Steps-Wood-De-Noised-Walk-3_wav 2025-03-06 13_31	C:\Users\ethan\OneDrive\Desktop\SoundForGamesFinalProject\Wwise Project 2\Wwise Project 2_WwiseProject\.cache\5B\{5BD4FD6B-FD8D-8492-7F31-791F965F1096}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\3-524339-Foot-Steps-Wood-De-Noised-Walk-3_wav 2025-03-06 13_31		41660
+	645658446	Coin sound 1	C:\Users\ethan\OneDrive\Desktop\SoundForGamesFinalProject\Wwise Project 2\Wwise Project 2_WwiseProject\.cache\C7\{C7690508-ADDB-5E96-D9C6-564912A8950B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coin_pick_up\Coin sound 1		187008
+	798548240	Main_menu_loop	C:\Users\ethan\OneDrive\Desktop\SoundForGamesFinalProject\Wwise Project 2\Wwise Project 2_WwiseProject\.cache\C6\{C6D213F7-FC02-0EB4-77A1-6BFAEFA88B98}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main_menu_loop		6334072
+	917379753	Coin sound 2	C:\Users\ethan\OneDrive\Desktop\SoundForGamesFinalProject\Wwise Project 2\Wwise Project 2_WwiseProject\.cache\36\{364C3EB9-FC47-EEC9-C84C-AE0262DF4D69}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coin_pick_up\Coin sound 2		194304
+

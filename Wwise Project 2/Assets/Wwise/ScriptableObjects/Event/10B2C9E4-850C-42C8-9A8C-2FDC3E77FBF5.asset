@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25c05c168ffe2b341b55625943e12e7d, type: 3}
+  m_Name: 10B2C9E4-850C-42C8-9A8C-2FDC3E77FBF5
+  m_EditorClassIdentifier: 
+  objectName: Coin_pick_up
+  id: 4079413198
+  guid: 10B2C9E4-850C-42C8-9A8C-2FDC3E77FBF5
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0

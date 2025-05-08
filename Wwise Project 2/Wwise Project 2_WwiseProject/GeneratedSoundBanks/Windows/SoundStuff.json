@@ -1,0 +1,111 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "92275944",
+    "Type": "User",
+    "GUID": "{EF326D74-081E-4FD6-A332-4F4820BBA396}",
+    "Language": "SFX",
+    "Hash": "{02F5413A-CA80-135D-F7BC-DD60E0FD9426}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SoundStuff",
+    "ShortName": "SoundStuff",
+    "Path": "SoundStuff.bnk",
+    "Media": [
+     {
+      "Id": "302350548",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "3-524339-Foot-Steps-Wood-De-Noised-Walk-3.wav 2025-03-06 13_31.wav",
+      "CachePath": "C1/{C188DA70-A3A6-1168-F85B-C8A38A49E8BB}.wem"
+     },
+     {
+      "Id": "540072961",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "3-524339-Foot-Steps-Wood-De-Noised-Walk-3.wav 2025-03-06 13_31.wav",
+      "CachePath": "5B/{5BD4FD6B-FD8D-8492-7F31-791F965F1096}.wem"
+     },
+     {
+      "Id": "645658446",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Coin sound 1.wav",
+      "CachePath": "C7/{C7690508-ADDB-5E96-D9C6-564912A8950B}.wem"
+     },
+     {
+      "Id": "798548240",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Main_menu_loop.wav",
+      "CachePath": "C6/{C6D213F7-FC02-0EB4-77A1-6BFAEFA88B98}.wem"
+     },
+     {
+      "Id": "917379753",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Coin sound 2.wav",
+      "CachePath": "36/{364C3EB9-FC47-EEC9-C84C-AE0262DF4D69}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4079413198",
+      "Name": "Coin_pick_up",
+      "ObjectPath": "\\Events\\Default Work Unit\\Coin_pick_up",
+      "GUID": "{10B2C9E4-850C-42C8-9A8C-2FDC3E77FBF5}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0595919",
+      "DurationMax": "1.1009524",
+      "MediaRefs": [
+       {
+        "Id": "645658446"
+       },
+       {
+        "Id": "917379753"
+       }
+      ]
+     },
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps",
+      "GUID": "{09302306-FFF5-4B04-A3A9-C545E2C2EEB9}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21647774",
+      "DurationMax": "0.24353749",
+      "MediaRefs": [
+       {
+        "Id": "302350548"
+       },
+       {
+        "Id": "540072961"
+       }
+      ]
+     },
+     {
+      "Id": "777827307",
+      "Name": "Main_menu_",
+      "ObjectPath": "\\Events\\Default Work Unit\\Main_menu_",
+      "GUID": "{0CED9E0A-F21E-4DE9-94B9-4C6055DE933C}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "798548240"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A1776630-1B6B-6280-0715-797C06F0DD42}"
+ }
+}
