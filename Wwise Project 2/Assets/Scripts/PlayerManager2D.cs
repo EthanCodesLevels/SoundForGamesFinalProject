@@ -1,8 +1,11 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerController2D : MonoBehaviour
 {
+    [SerializeField] AudioSource coinding;
     public CoinManager cm;
+
 
     public float speed;
     private float moveInput;
@@ -19,9 +22,12 @@ public class PlayerController2D : MonoBehaviour
     private float jumpTimeCounter;
     public float jumpTime;
     private bool isJumping;
+
+    public AudioClip ding;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        coinding = GetComponent<AudioSource>();
     }
 
     private void FixedUpdate()
@@ -29,28 +35,28 @@ public class PlayerController2D : MonoBehaviour
 
         moveInput = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
-       
-        if(facingRight == false && moveInput > 0) 
+
+        if (facingRight == false && moveInput > 0)
         {
             Flip();
-        } 
-        else if (facingRight == true && moveInput < 0) 
+        }
+        else if (facingRight == true && moveInput < 0)
         {
             Flip();
         }
     }
-    
+
     private void Update()
     {
-        isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, whatIsGround );
+        isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, whatIsGround);
 
-        if ( isGrounded == true && Input.GetKeyDown(KeyCode.Space)) 
+        if (isGrounded == true && Input.GetKeyDown(KeyCode.Space))
         {
             isJumping = true;
             jumpTimeCounter = jumpForce;
             rb.velocity = Vector2.up * jumpForce;
         }
-        if (Input.GetKey(KeyCode.Space) && isJumping == true) 
+        if (Input.GetKey(KeyCode.Space) && isJumping == true)
         {
             if (jumpTimeCounter > 0)
             {
@@ -62,12 +68,12 @@ public class PlayerController2D : MonoBehaviour
                 isJumping = false;
             }
         }
-        if (Input.GetKeyUp(KeyCode.Space)) 
+        if (Input.GetKeyUp(KeyCode.Space))
         {
             isJumping = false;
         }
     }
-    void Flip() 
+    void Flip()
     {
         facingRight = !facingRight;
         Vector3 Scaler = transform.localScale;
@@ -76,13 +82,23 @@ public class PlayerController2D : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Coin")) 
+        if (other.gameObject.CompareTag("Coin"))
         {
+            StartCoroutine(CoinCoRoutine());
             Destroy(other.gameObject);
-            cm.coinCount++;
+
 
         }
     }
-    
+
+    IEnumerator CoinCoRoutine()
+    {
+        coinding.clip = ding;
+        coinding.Play(0);
+        cm.coinCount++;
+        yield return new WaitForSeconds(3);
+
+    }
+
 }
 
